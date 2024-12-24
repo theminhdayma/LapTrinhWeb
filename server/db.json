@@ -1,0 +1,633 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "theminhdayma",
+      "age": 19,
+      "address": "Hà Nội",
+      "numberPhone": "0987654321",
+      "email": "theminh2005z@gmail.com",
+      "password": "U2FsdGVkX1/YdWVp726Y+/PxxJr00ps4CyhwkphVW98=",
+      "image": "https://firebasestorage.googleapis.com/v0/b/projectreact-dd427.appspot.com/o/avatars%2F1e08d332-21f9-40c5-be94-2936449039eb.jpg?alt=media&token=58308653-84d0-46ce-8ca8-349b9eb9e32c",
+      "role": 0,
+      "created_at": "01-01-2024",
+      "updated_at": "",
+      "status": true
+    },
+    {
+      "name": "Minh Sâm",
+      "age": 18,
+      "address": "Hà Nội",
+      "numberPhone": "0987654321",
+      "email": "minhsam2807@gmail.com",
+      "password": "U2FsdGVkX182CPR30wxRjVPU9ibgJUvvscpAm5ihRv8=",
+      "image": "https://firebasestorage.googleapis.com/v0/b/projectreact-dd427.appspot.com/o/products%2F12f9e75d-6463-4e70-ae18-b2175df207a8.jpg?alt=media&token=3c7dc62f-1096-46ac-ab0f-2cc6b0f8b45a",
+      "role": 0,
+      "created_at": "01-01-2024",
+      "updated_at": "",
+      "status": true,
+      "id": 2
+    },
+    {
+      "name": "Dũng",
+      "age": 0,
+      "address": "chưa có",
+      "numberPhone": "chưa có",
+      "email": "dung@gmail.com",
+      "password": "U2FsdGVkX1/kb49cvV/G80b2R4EHtv6AF0U0FuJJA/0=",
+      "image": "",
+      "role": 1,
+      "created_at": "12-07-2024",
+      "updated_at": "",
+      "status": true,
+      "id": 6
+    },
+    {
+      "name": "Quang",
+      "age": 0,
+      "address": "chưa có",
+      "numberPhone": "chưa có",
+      "email": "quang@gmail.com",
+      "password": "U2FsdGVkX1/yftVbAiZZ1DAikmDggkCZFBRDVpahbN0=",
+      "image": "",
+      "role": 1,
+      "created_at": "13-07-2024",
+      "updated_at": "",
+      "status": false,
+      "id": 7
+    },
+    {
+      "name": "Thế Minh",
+      "age": 0,
+      "address": "chưa có",
+      "numberPhone": "chưa có",
+      "email": "minhdeptrai@gmail.com",
+      "password": "U2FsdGVkX19SY6YuwCu6LMlZDm96X/+bGLxNLkaLaRo=",
+      "image": "",
+      "role": 1,
+      "created_at": "13-07-2024",
+      "updated_at": "",
+      "status": true,
+      "id": 8
+    },
+    {
+      "name": "Vỹ",
+      "age": 0,
+      "address": "chưa có",
+      "numberPhone": "chưa có",
+      "email": "minhvy@gmail.com",
+      "password": "U2FsdGVkX19YQPsfNdNpu/pihSBqZDEuQuDVCqhibAc=",
+      "image": "",
+      "role": 1,
+      "created_at": "14-07-2024",
+      "status": false,
+      "id": 9
+    },
+    {
+      "name": "Bình",
+      "age": 0,
+      "address": "chưa có",
+      "numberPhone": "chưa có",
+      "email": "binh@gmail.com",
+      "password": "U2FsdGVkX19r5/H+xbM1UkCnLHOMtJYPimdPzjG/xFo=",
+      "image": "",
+      "role": 1,
+      "created_at": "14-07-2024",
+      "status": true,
+      "id": 10
+    },
+    {
+      "name": "Nghĩa",
+      "age": 0,
+      "address": "chưa có",
+      "numberPhone": "chưa có",
+      "email": "nghia@gmail.com",
+      "password": "U2FsdGVkX1/vPOdxrI/46p8PoSBvyO55He+6cdskiV0=",
+      "image": "",
+      "role": 1,
+      "created_at": "14-07-2024",
+      "updated_at": "",
+      "status": true,
+      "id": 11
+    },
+    {
+      "name": "Ex1",
+      "age": 0,
+      "address": "chưa có",
+      "numberPhone": "chưa có",
+      "email": "ex1.@gmail.com",
+      "password": "U2FsdGVkX18HH2G+YiGwVxDf0enlQCod06L+uUFFiyg=",
+      "image": "",
+      "role": 1,
+      "created_at": "15-07-2024",
+      "updated_at": "",
+      "status": true,
+      "id": 12
+    },
+    {
+      "name": "linh trần",
+      "age": 0,
+      "address": "Hà Nội",
+      "numberPhone": "0999999999",
+      "email": "linh@gmail.com",
+      "password": "U2FsdGVkX1+EjR9n65Vf6cshHHRh+q9D1q1RSsVNcSc=",
+      "image": "",
+      "role": 1,
+      "created_at": "24-12-2024",
+      "updated_at": "",
+      "status": true,
+      "id": 13
+    }
+  ],
+  "category": [
+    {
+      "name": "TV",
+      "description": "Tất cả các sản phẩm liên quan tới TV",
+      "products": [],
+      "created_at": "01-01-2024",
+      "status": true,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Tủ lạnh",
+      "description": "Tất cả các sản phẩm liên quan tới tủ lạnh",
+      "products": [],
+      "created_at": "01-01-2024",
+      "status": true
+    },
+    {
+      "name": "đIỆN THOẠI",
+      "description": "đIỆN THOẠI VIPPRO",
+      "products": [],
+      "created_at": "24-12-2024",
+      "status": true,
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "idCategory": 1,
+      "brand": "SamSung",
+      "name": "TV Neo QLED 8K",
+      "total": 4568,
+      "price": 578,
+      "purchaseCount": 1480,
+      "description": "Shaasung32 / 43 Inch Tên miền màu cao TV WiFi thông minh Thiết kế toàn màn hình Tivi hệ thống Android siêu trong suốt",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/cn-11134207-7ras8-m20j0lwzfpl8f7.webp",
+        "https://down-vn.img.susercontent.com/file/cn-11134207-7ras8-m1w6misjpyy536.webp",
+        "https://down-vn.img.susercontent.com/file/cn-11134207-7ras8-m1w6misjrdil42.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": true,
+      "status": true
+    },
+    {
+      "id": 9,
+      "idCategory": 1,
+      "brand": "SamSung",
+      "name": "TV Neo QLED",
+      "total": 7465,
+      "price": 670,
+      "purchaseCount": 2386,
+      "description": "Smart Tivi Samsung 4K UHD 43 Inch UA43AU7002KXXV - Miễn phí lắp đặt:Chính Hãng",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lx0ylf8ismhl08.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lx0ylf8hxpzt7d.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lx0ylf8id61n2b.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": true,
+      "status": false
+    },
+    {
+      "id": 11,
+      "idCategory": 1,
+      "brand": "Sony",
+      "name": "Tivi Sony 4K 55 inch KD-55X80L",
+      "total": 7410,
+      "price": 258,
+      "purchaseCount": 2644,
+      "description": "Tivi Sony Mới Nhất 2024 - BRAVIA 3 75 Inch | 4K Ultra HD | Dải tần nhạy sáng cao (HDR) | Smart TV (Google TV) - 75S30",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m3ylqfc1two80d.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m3ylqf405okof8.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m3ylqf5y2s69f7.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": true,
+      "status": false
+    },
+    {
+      "id": 13,
+      "idCategory": 1,
+      "brand": "Sony",
+      "name": "Tivi Sony 65 inch 4K KD-65X85L",
+      "total": 2472,
+      "price": 249,
+      "purchaseCount": 2131,
+      "description": "Tivi Sony Mới Nhất 2024 - BRAVIA 3 55 Inch | KD-55S30 I 4K Ultra HD | Dải tần nhạy sáng cao (HDR) | Smart TV (Google TV)",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m3ylqialhzmwf2.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m3ylqi97jz5od5.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m3ylqi9hjm3s83.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": false
+    },
+    {
+      "id": 15,
+      "idCategory": 1,
+      "brand": "Sony",
+      "name": "Tivi Sony 4K KD-65X75K [65X75K]",
+      "total": 7247,
+      "price": 342,
+      "purchaseCount": 1364,
+      "description": "Sale-Google Tivi Sony OLED 4K 65 Inch XR-65A95L",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7rfh2-m3z4rmaypgaw8a.webp",
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7rfgc-m3z4rmj0dncq37.webp",
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7rfgo-m3z4rmq8339z17.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": false
+    },
+    {
+      "id": 17,
+      "idCategory": 1,
+      "brand": "Sony",
+      "name": "Tivi Sony 4K 65 inch XR-65X90L - Chính hãng",
+      "total": 6735,
+      "price": 321,
+      "purchaseCount": 1365,
+      "description": "Lắp đặt 0Đ HN HCM] Google Tivi Sony 4K 65 inch XR-65X90L - Ultra HD Google TV - Bảo hành 24 tháng",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lp8vz2m0ba6zdc.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lp8vz2maniorc3.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lp8vz2ma82fvad.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": true
+    },
+    {
+      "id": 19,
+      "idCategory": 1,
+      "brand": "Sony",
+      "name": "Tivi OLED Sony 4K 77 inch XR-77A95L",
+      "total": 7846,
+      "price": 244,
+      "purchaseCount": 1128,
+      "description": "KD-32W830K - Google Tivi Sony HD 32 inch KD-32W830K Công nghệ X-Reality PRO - GIAO TOÀN QUỐC",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m2xncsj10ohce4.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m2xnct8003ayc2.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m2xncttx425s70.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": true
+    },
+    {
+      "id": 21,
+      "idCategory": 1,
+      "brand": "Xiaomi",
+      "name": "Xiaomi 55 inch EA Pro 4K – Phiên bản 2023/2024",
+      "total": 6368,
+      "price": 274,
+      "purchaseCount": 1613,
+      "description": "Xiaomi Google Tivi HD 32 inch 32A - TV Với Trợ lý Google Voice Bảo Hành 24 Tháng Chính Hãng",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lkg7hqlqmy0899.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lkg7hqlq7hrc37.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvy3inl8zxsre3.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": false
+    },
+    {
+      "id": 23,
+      "idCategory": 1,
+      "brand": "Xiaomi",
+      "name": "Tivi Xiaomi Redmi Max 98 inch",
+      "total": 4632,
+      "price": 531,
+      "purchaseCount": 2675,
+      "description": "Tivi Xiaomi Redmi Max 100 Inch Quốc Tế Model 2025 4K Tần Số 144 Hz - Chính Hãng A143",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m2zfqbr5isjq4f.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m2zfqbrphzba48.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m2zfqbsjgr7e36.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": true
+    },
+    {
+      "id": 25,
+      "idCategory": 1,
+      "brand": "Xiaomi",
+      "name": "Tivi Xiaomi TV5 Pro 55 inch Siêu Mỏng",
+      "total": 7475,
+      "price": 285,
+      "purchaseCount": 2004,
+      "description": "Tivi Xiaomi EA 55 inch chất lương 4K - Giá tốt nhất thị trường",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134201-23020-vjp6vqpzlrnv61.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-23020-ldbhdi3zlrnv17.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-23020-roq3cy11lrnvce.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": false
+    },
+    {
+      "id": 27,
+      "idCategory": 1,
+      "brand": "Xiaomi",
+      "name": "Tivi Xiaomi ES75 2022 Series",
+      "total": 3575,
+      "price": 412,
+      "purchaseCount": 2025,
+      "description": "Tivi Xiaomi A Pro 65 Inch 4K UHD - Màn Hình Siêu Mỏng, Tần Số 120Hz - Âm Thanh Sống Động-Hình Ảnh Chân ThựcBản Nội Địa",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7reqc-m2j9dv4prg1kb9.webp",
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7reog-m2j9dvib7juj45.webp",
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7reo6-m2j9dw845s8z49.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": false
+    },
+    {
+      "id": 29,
+      "idCategory": 1,
+      "brand": "Xiaomi",
+      "name": "Tivi Xiaomi EA75 2022 Series",
+      "total": 5732,
+      "price": 437,
+      "purchaseCount": 1975,
+      "description": "Cam kết chính hãng TV XIAOMI EA55 RAM 2.0 Bộ nhớ 16 GB Wifi 5G Cài App miễn phí 300 kênh của FPT. BẢO HÀNH 24 THÁNG",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7qukw-lkcg0ftacxb0cc.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7qukw-lkcg0iq63gdk0f.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7qukw-lkcg0lnbtkfcb2.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": true
+    },
+    {
+      "id": 31,
+      "idCategory": 1,
+      "brand": "Toshiba",
+      "name": "Tivi Toshiba QLED 4K 50 inch (50M550LP)",
+      "total": 5375,
+      "price": 500,
+      "purchaseCount": 1237,
+      "description": "Smart Tivi TOSHIBA 55 inch 55E330NP, Màn Hình LED 4K UHD - Loa 24W - Lắp Đặt Toàn Quốc",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m27psougzfec93.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m27ps1jp5ol046.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m27ps1jp735gdd.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": false
+    },
+    {
+      "id": 33,
+      "idCategory": 1,
+      "brand": "Toshiba",
+      "name": "Smart Tivi Toshiba OLED 4K 55 inch (55X9900LP)",
+      "total": 8464,
+      "price": 235,
+      "purchaseCount": 1587,
+      "description": "Vidaa Tivi TOSHIBA 55 inch 55E330NP, Smart TV Màn Hình LED 4K UHD - Loa 24W - Lắp Đặt Toàn Quốc )",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m1nqnt4ppi9r52.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m1nqo089bjgz4e.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m1nqok8u12dv3f.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": false
+    },
+    {
+      "id": 35,
+      "idCategory": 1,
+      "brand": "Toshiba",
+      "name": "Tivi Toshiba 4K QLED 100 inch 100Z670NP",
+      "total": 3573,
+      "price": 638,
+      "purchaseCount": 1294,
+      "description": "TV TOSHIBA LED 4K UHD 75'' 75C350LP - Tìm kiếm bằng giọng nói - Bảo hành 2 năm",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkqkb8ndm9j4f9.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkqkb8ndno3kd7.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkqkb8ndtadcfc.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": true
+    },
+    {
+      "id": 37,
+      "idCategory": 1,
+      "brand": "Toshiba",
+      "name": "Tivi Toshiba 4K 65 inch 65C350LP",
+      "total": 6446,
+      "price": 212,
+      "purchaseCount": 1982,
+      "description": "Tivi TOSHIBA 75 inch 75C350NP, Smart TV Màn Hình LED 4K UHD - Loa 36W - Lắp Đặt Toàn Quốc",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2bul0h73gdw8b.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2bul0i1dh2q9b.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2bulwg4b7w249.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": true
+    },
+    {
+      "id": 2,
+      "name": "Tủ Lạnh",
+      "description": "Tất cả các sản phẩm liên quan tới tủ lạnh",
+      "products": [],
+      "created_at": "01-01-2024",
+      "status": true
+    },
+    {
+      "id": 10,
+      "idCategory": 2,
+      "brand": "LG",
+      "name": "Tủ lạnh LG Inverter 470 lít Multi Door GR-B50BL",
+      "total": 8417,
+      "price": 551,
+      "purchaseCount": 1283,
+      "description": "Thiết kế kiểu dáng Multi Door cao cấp, thiết kế sang trọng và đẳng cấp. ",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m12padg7nxr364.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": false,
+      "status": false
+    },
+    {
+      "id": 12,
+      "idCategory": 2,
+      "brand": "LG",
+      "name": "GR-D257WB Tủ lạnh LG Inverter 635 lít GR-D257WB",
+      "total": 8324,
+      "price": 735,
+      "purchaseCount": 1736,
+      "description": "Công nghệ làm lạnh:tHệ thống làm lạnh đa chiều",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m379p0nefsocd3.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m379p1gt8r8sc0.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m379p27q5dd860.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": true
+    },
+    {
+      "id": 14,
+      "idCategory": 2,
+      "brand": "Samsung",
+      "name": "Tủ lạnh Samsung Inverter 200 lít RT20HAR8DBU/SV",
+      "total": 8282,
+      "price": 262,
+      "purchaseCount": 1265,
+      "description": "Công nghệ Inverter:Tủ lạnh Inverter",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m37atn0yfegcb2.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m37atnyj3mshac.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m37atos7usosd9.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": true
+    },
+    {
+      "id": 16,
+      "idCategory": 2,
+      "brand": "Sharp",
+      "name": "SJ-FX420V-SL -- Tủ lạnh Sharp Inverter 362 lít SJ-FX420V-SL",
+      "total": 7281,
+      "price": 339,
+      "purchaseCount": 2463,
+      "description": "Tủ lạnh dung tích 362 lít, thích hợp sử dụng cho gia đình từ 3 - 4 thành viên",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m2ymlm3zeoee41.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m2ymlmo8l2pced.webp",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m2ymlnfzgfly1e.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": false,
+      "status": false
+    },
+    {
+      "id": 18,
+      "idCategory": 2,
+      "brand": "Sharp",
+      "name": "Tủ Lạnh Sharp Inverter 626 Lít SJ-FX630V-ST",
+      "total": 3727,
+      "price": 407,
+      "purchaseCount": 1983,
+      "description": "Chất liệu ống dẫn gas, dàn lạnh:Ống dẫn gas bằng Nhôm - Lá tản nhiệt bằng Nhôm",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7rdyd-m1bbtwwh274n0e.webp",
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7rdy6-m1dn7cewsobc7d.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": true
+    },
+    {
+      "id": 20,
+      "idCategory": 2,
+      "brand": "LG",
+      "name": "GV-D262BL - Tủ lạnh LG Inverter 264 Lít GV-D262BL",
+      "total": 8463,
+      "price": 529,
+      "purchaseCount": 1641,
+      "description": "Chất liệu ống dẫn gas, dàn lạnh:Ống dẫn gas bằng Nhôm - Lá tản nhiệt bằng Nhôm",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7rdx4-ly4om9bp1n2f3b.webp",
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7rdyd-m1bbtwwh274n0e.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": false
+    },
+    {
+      "id": 22,
+      "idCategory": 2,
+      "brand": "Aqua",
+      "name": "Tủ lạnh Aqua Inverter 456 lít AQR-M525XA(FB)",
+      "total": 3576,
+      "price": 276,
+      "purchaseCount": 2046,
+      "description": "Công nghệ bảo quản thực phẩm:Công nghệ cân bằng độ ẩm HCSLàm lạnh đa chiều giúp thực phẩm tươi ngon",
+      "imageProduct": [
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7rdy4-m1gy9exnk2bt95.webp",
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7rdwr-m16h9pg1k3tqae.webp",
+        "https://down-vn.img.susercontent.com/file/sg-11134201-7rff2-m3n8h4b6kmlk6a.webp"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "statusProduct": false,
+      "status": false
+    }
+  ],
+  "cart": [],
+  "history": [
+    {
+      "idUser": 1,
+      "idProduct": 10,
+      "quantity": 2,
+      "price": 1102,
+      "created_at": "22-12-2024",
+      "status": true,
+      "id": 1
+    },
+    {
+      "idUser": 13,
+      "idProduct": 16,
+      "quantity": 1,
+      "price": 339,
+      "created_at": "24-12-2024",
+      "status": false,
+      "id": 2
+    },
+    {
+      "idUser": 13,
+      "idProduct": 11,
+      "quantity": 2,
+      "price": 516,
+      "created_at": "24-12-2024",
+      "status": false,
+      "id": 3
+    },
+    {
+      "idUser": 13,
+      "idProduct": 22,
+      "quantity": 1,
+      "price": 276,
+      "created_at": "24-12-2024",
+      "status": false,
+      "id": 4
+    }
+  ]
+}
